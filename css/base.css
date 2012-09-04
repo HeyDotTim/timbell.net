@@ -1,0 +1,39 @@
+html {
+  background: url('/img/testBack.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+.giantLine {
+  line-height: 250px;
+}
+.panel {
+  width: 100%;
+  text-align: center;
+  min-height: 250px;
+  margin-top: 30px;
+  line-height: 250px;
+}
+.topLeft {
+  background-color: #000000;
+  color: #ffffff;
+}
+.topRight {
+  background-color: #90ee90;
+  color: #ffffff;
+}
+.bottomLeft {
+  background-color: #ffa500;
+}
+.bottomRight {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+.panelTitle {
+  font-size: 4em;
+}

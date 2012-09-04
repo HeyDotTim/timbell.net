@@ -1,0 +1,67 @@
+@blackBack: #000000;
+@greenBack: #90ee90;
+@orangeBack: orange;
+@blueBack: #0000ff;
+@panelTopMargin: 30px;
+@giant: 4em;
+@panelHeight: 250px;
+
+
+html
+{
+    background: url('/img/testBack.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container
+{
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+
+.giantLine
+{
+    line-height: @panelHeight;
+}
+
+
+.panel
+{
+    width: 100%;
+    text-align: center;
+    min-height: @panelHeight;
+    margin-top: @panelTopMargin;
+    .giantLine;
+}
+
+.topLeft
+{
+    background-color: @blackBack;
+    color: #ffffff;
+}
+
+.topRight
+{
+    background-color: @greenBack;
+    color: #ffffff;
+}
+
+.bottomLeft
+{
+    background-color: @orangeBack;
+}
+
+.bottomRight
+{
+    background-color: @blueBack;
+    color: #ffffff;
+}
+
+.panelTitle
+{
+    font-size: @giant;
+}
